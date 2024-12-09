@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function CarCard({brand,title,image,price}:{brand:string,title:string,image:string,price:string}) {
   return (
-    <div className="w-[300px] h-[320px] rounded-xl bg-white p-4 shadow">
+    <div className="w-[300px] h-[340px] rounded-xl bg-white p-4 shadow">
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
@@ -68,7 +68,7 @@ export default function CarCard({brand,title,image,price}:{brand:string,title:st
     <span className="text-lg font-semibold">{price}</span>
     <span className="text-sm text-gray-500">/day</span>
   </div>
-  <button className="mt-4 sm:mt-0 rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700">
+  <button className="mt-1 sm:mt-0 rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700">
     Rent Now
   </button>
 </div>

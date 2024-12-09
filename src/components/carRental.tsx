@@ -154,7 +154,7 @@ const CarRental: React.FC = () => {
               <Link href={'/map'}>
                 <button
                 type="button"
-                className="w-full bg-blue-600 text-white py-3 rounded-md font-medium hover:bg-blue-700"
+                className="w-full mt-5 bg-blue-600 text-white py-3 rounded-md font-medium hover:bg-blue-700"
               >
                 Rent Now
               </button>
