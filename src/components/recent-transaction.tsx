@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card"
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import Image from "next/image";
 
 const transactions = [
@@ -8,7 +8,7 @@ const transactions = [
     image: "/Nissan.png",
   },
   {
-    car: "Koenigsegg",
+    car: "CR - V",
     price: "$99.00",
     image: "/Koenigsegg.png",
   },
@@ -22,7 +22,7 @@ const transactions = [
     price: "$80.00",
     image: "/CR-V.png",
   },
-]
+];
 
 export function RecentTransactions() {
   return (
@@ -39,13 +39,13 @@ export function RecentTransactions() {
               className="flex items-center justify-between rounded-lg border p-4"
             >
               <div className="flex items-center gap-4">
-              <Image
-  src={transaction.image} // Dynamic image URL
-  alt={transaction.car}   // Alt text for accessibility
-  width={130}             // Explicit width (adjust as needed)
-  height={40}             // Explicit height (adjust as needed)
-  className="h-10 w-25 rounded object-cover"
-/>
+                <Image
+                  src={transaction.image}
+                  alt={transaction.car}
+                  width={130}
+                  height={40}
+                  className="h-10 w-25 rounded object-cover"
+                />
                 <span className="font-medium">{transaction.car}</span>
               </div>
               <span className="font-bold">{transaction.price}</span>
@@ -54,6 +54,5 @@ export function RecentTransactions() {
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }
-

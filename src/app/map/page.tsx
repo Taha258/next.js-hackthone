@@ -28,14 +28,15 @@ import { Fullscreen } from "lucide-react"
 export default function DashboardPage() {
   return (
     <div className="flex min-h-screen bg-background container mx-auto">
+      
       <MapSide />
       <main className="flex-1 p-8">
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="space-y-8">
-            <div className="h-[300px] rounded-lg bg-gray-100">
+            <div className="h-[300px] rounded-lg ">
+            <h1>Details Rental</h1>
               {/* Map placeholder - You would integrate a real map here */}
               <Image alt="map" width={1000} height={500} src={'/Maps.png'}/>
-              <div className="h-full w-full rounded-lg bg-gray-200" />
             </div>
             <CarRentalDetails />
           </div>

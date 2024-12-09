@@ -27,7 +27,7 @@ export function TopFiveRental() {
                   key={type.name}
                   className="absolute inset-0"
                   style={{
-                    clipPath: `polygon(50% 50%, 100% ${index * 25}%, 100% ${(index + 1) * 25}%)`,
+                    clipPath: `polygon(0% 0%, 0% ${index * 0}%, 100% ${(index + 1) * 25}%)`,
                   }}
                 >
                   <div className={`h-full w-full ${type.color}`} />
