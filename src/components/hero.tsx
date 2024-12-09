@@ -39,12 +39,12 @@ export function Hero() {
               Providing cheap car rental services and safe and comfortable facilities.
             </p>
             <Button className="bg-[#54A6FF] hover:bg-[#54A6FF]/90 text-white rounded-[4px] px-5 py-[13px] text-base font-semibold">
-              Rental Car
+              Rental Car 
             </Button>
           </div>
           <div className="absolute right-0 bottom-0 w-[60%] h-[200px]">
             <Image
-              src="/Nissan GT -R.png"
+              src="/Nissan.png"
               alt="Blue sports car"
               fill
               className="object-contain object-right-bottom"

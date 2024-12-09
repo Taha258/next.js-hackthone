@@ -22,7 +22,7 @@ export function PickUpSection() {
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="pick-up" id="pick-up" />
                   <Label htmlFor="pick-up" className="text-base font-semibold">
-                    Pick - Up
+                    Pick - Up 
                   </Label>
                 </div>
               </RadioGroup>
